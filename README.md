@@ -35,7 +35,8 @@ List the ready features here:
 - N/A
 
 ## Screenshots
-![Example screenshot](asset\webpage.PNG)
+![image](https://user-images.githubusercontent.com/77367136/122693256-bbf18c80-d1fe-11eb-84a7-3cd587c6eef9.png)
+
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
