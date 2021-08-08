@@ -1,145 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script> -->
+
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  </head>
 
-</head>
-
-<body>
+  <body>
     <ul class="menu">
-        <li><a class="brand" href="">KT</a></li>
-        <li><a href="#work-section">Work</a></li>
-        <li><a href="#school-section">Education</a></li>
-        <li><a href="#contact-section">Contact</a></li>
+      <li><a class="brand" href="">KT</a></li>
+      <li><a href="#project-section">Projects</a></li>
+      <li><a href="#school-section">Education</a></li>
+      <li><a href="#contact-section">Contact</a></li>
     </ul>
 
-
     <div class="intro">
-        <div>
-
-            <h1>Kabao <br><span>Thao</span></h1>
-            <small>An inspiring developer. Seeks to bring seven years of professional technical experiences to a
-                full stack developer position in a goal-oriented, fast-paced tech environment.
-            </small>
-        </div>
-        <div><img src="asset/thaoka.png" alt=""></div>
-    </div>
-    <hr>
-    <div class="content">
-        <div>
-            <h2>Summary of Qualification</h2>
-            <div class="box">
-                <div class="picture-one"></div>
-                <div>
-                    <small>
-                        Solid understanding of the Software Development Life Cycle (SDLC) and SQL Server. Proficient in
-                        Microsoft Suite, Business Object, SharePoint, Visio, Tableau, Salesforce.
-                    </small>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h2>Projects</h2>
-            <div class="box" id="project">
-                <div class="picture-two"></div>
-                <div>
-                    <small>
-                        Learn more about my first projects.<br>
-                        <a class="project-btn" href="https://kabaothao.github.io/CodeRefactor/">View
-                            Project
-                        </a>
-
-
-                    </small>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h2>Skills & Languages</h2>
-            <div class="box">
-                <div class="picture-three"></div>
-                <div>
-                    <small>
-                        HTML5, CSS, Git, Visual Studio
-                    </small>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h2 id="work-section">Work</h2>
-            <div class="box">
-                <div class="picture-four"></div>
-                <div>
-                    <small>
-                        Business Analyst, Voya Financial, MN September 2020 – Present
-                        Manage client’s group contract provisions for Life, Disability, and Supplemental Health
-                        Voluntary products. Draft and maintain business requirements and align them with functional and
-                        technical requirements.Conduct user acceptance testing to meet functionality requirements.
-                        Identify and reconcile errors in client data to ensure accurate business requirements.
-                    </small>
-                </div>
-            </div>
-        </div>
-
-
-        <div>
-            <h2>Services</h2>
-            <div class="box">
-                <div class="picture-five"></div>
-                <div>
-                    <small>
-                        Custom Website Design Services for Real Estate Companies
-                    </small>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <h2 id="school-section">Education</h2>
-            <div class="box">
-                <div class="picture-six cover-img"></div>
-                <div>
-                    <small>
-                        MERN Full Stack Web Development Certificate, University of Minnesota, MN June 2021 – present
-                    </small>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div>
-            <h2 id="contact-section">Contacts</h2>
-            <div class="box">
-                <div class="picture-seven"></div>
-                <div>
-                    <small>
-                        <a href="kabao.thao@outlook.com">Email</a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/kabaothao">Linkedin</a>
-                        <br>
-                        <a href="https://github.com/kabaothao">GitHub</a>
-
-                    </small>
-                </div>
-
-            </div>
-        </div>
-
+      <div>
+        <h1>Kabao <br /><span>Thao</span></h1>
+        <small
+          >An inspiring developer. Seeks to bring seven years of professional
+          technical experiences to a full stack developer position in a
+          goal-oriented, fast-paced tech environment.
+        </small>
+      </div>
+      <div><img src="./asset/thaoka.png" alt=""> </div>
     </div>
 
 
+<!-- projects section -->
+<section class="sub-section-alternative" id="project-section">
+    <h2>Projects</h2>
+    <div class="project-container">
+        <div class="project-card" id="project">
+            <img class="project-image" src="./asset/projectimageone.PNG" alt="Project One Image"/>
+            <h3>Project One</h3>
+            <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
+            <hr/>
+            <p class="subtext"><a class="project-link" href="https://brendan838.github.io/groupProject_teamSoFetch/">
+            <button class="project-btn">View here</button></a>
+            </p>
+        </div>
+        <div class="project-card" id="project">
+          <img class="project-image" src="./asset/projectimagetwo.PNG" alt="Project One Image"/>
+          <h3>Project Two</h3>
+          <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
+          <hr/>
+          <p class="subtext"><a class="project-link" href="https://kabaothao.github.io/Weather-Dashboard/"><button class="project-btn">View here</button></a>
+          </p>
+        </div>
+        <div class="project-card" id="project">
+          <img class="project-image" src="./asset/projectimagethree.PNG" alt="Project One Image"/>
+          <h3>Project Three</h3>
+          <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
+          <hr/>
+          <p class="subtext"><a class="project-link" href="https://kabaothao.github.io/Code-Quiz/">
+            <button class="project-btn">View here</button></a>
+          </p>
+        </div>
+        
+        <div class="project-card" id="project">
+          <img class="project-image" src="./asset/projectimagefour.PNG" alt="Project One Image"/>
+          <h3>Project Four</h3>
+          <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
+          <hr/>
+          <p class="subtext"><a class="project-link" href="https://kabaothao.github.io/Project-One/">
+            <button class="project-btn">View here</button></a>
+          </p>
+        </div>
+    </div>
+</section>
 
+<!-- education section -->
+<section class="sub-section-alternative" id="school-section">
+    <h2>Education</h2>
+    <div class="project-container">
+        <div class="project-card" id="project">
+          <img class="project-image" src="./asset/uofm.PNG" alt="College Image"/>
+          <p class="subtext">MERN Full Stack Web Certifcate, U of M, MN June 2021 - Present </p>
+          <hr/>
+        </div>
+        <div class="project-card" id="project">
+          <img class="project-image" src="./asset/saintolaf.PNG" alt="College Image"/>
+          <p class="subtext">Bachelor of Economics, St. Olaf College, MN</p>
+          <hr/>
+      </div>
+    </div>
+</section>
 
+<!-- contact section -->
+<footer id="contact-section">
+  <h2>Contact me</h2>
+  <p>tkabao@gmail.com</p>
+    <div><a href="https://github.com/kabaothao"  class="social">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a></div>
+    <div><a href="https://www.linkedin.com/in/kabaothao"  class="social">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+    </a></div>
+</div>
+</div>
+</footer>
 
-
-</body>
-
+  </body>
 </html>

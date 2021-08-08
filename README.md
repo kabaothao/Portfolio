@@ -35,7 +35,7 @@ List the ready features here:
 - N/A
 
 ## Screenshots
-![Example screenshot](asset\webpage.PNG)
+![Example screenshot](asset/webpage.PNG)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 

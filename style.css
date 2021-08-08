@@ -1,206 +1,175 @@
-
-
-.menu {list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #6025de;
-    box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6025de;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
 }
 
 .menu li {
-    float: left;
+  float: left;
 }
 .menu li a {
-    display: inline-block;
-     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-html, body {
-    width: 100%;
-    margin:0px;
+html,
+body {
+  width: 100%;
+  margin: 0px;
 }
 
 .intro {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
-    justify-items: center;
-    margin-left: 15px;
-    max-width: 720px;
-    margin: auto;
-    
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-left: 15px;
+  max-width: 720px;
+  margin: auto;
 }
 
-.intro div h1, .intro div h5 {
-    margin-left: 15px;
+.intro div h1,
+.intro div h5 {
+  margin-left: 15px;
 }
 
 .intro div img {
-    max-width: 120px;
+  max-width: 120px;
 }
 
 div h2 {
-    text-align: center;
-    margin: 0px 15px;
+  text-align: center;
+  margin: 0px 15px;
 }
 
-div small ul{
-    margin-right: 15px;
+div small ul {
+  margin-right: 15px;
 }
 
 hr {
-    margin: 15px;
+  margin: 15px;
 }
 
-.intro div h1 span{
-    padding-left: 60px;
+.intro div h1 span {
+  padding-left: 60px;
 }
 
-.intro div h1::first-letter{
-    font-size: 2em; color:orangered;
-    text-shadow: 1px 1px gray;
+.intro div h1::first-letter {
+  font-size: 2em;
+  color: orangered;
+  text-shadow: 1px 1px gray;
 }
 
-.brand::first-letter{
-    color: orangered;
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px gray;
+.brand::first-letter {
+  color: orangered;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px gray;
 }
 
-.brand {margin-top: -5px;}
+.brand {
+  margin-top: -5px;
+}
 
 @keyframes slideInFromRight {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .intro div {
-    animation: 1s ease-out 0s 1 slideInFromRight;
-    margin-left: 15px;
-}
-
-.content {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-    max-width: 480px;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
-
-@media only screen and (max-width: 600px) {
-
-}
-
-@media only screen and (min-width: 601px) {
-    .content{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .content h2 {
-        text-align: center;
-    }
-
-}
-
-.content h2 {
-    text-transform: uppercase;
-}
-
-.content div h2 {
-    margin: 20px 0px;
-}
-
-li a:hover{
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-.box {
-    box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
-    border-radius: 4px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.box div {
-    padding: 30px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    text-align: center;
-}
-
-.picture-one{
-    background-image: url("asset/qualification.jpg");
-    height: 100px;
-}
-
-.picture-two{
-    background-image: url("asset/project.png");
-    height: 100px;
-}
-
-.picture-three{
-    background-image: url("asset/technologytool.jpg");
-    height: 100px;
-}
-
-.picture-four{
-    background-image: url("asset/work.jpg");
-    height: 100px;
-}
-
-.picture-five{
-    background-image: url("asset/realestatewebdesign.png");
-    height: 100px;
-}
-
-.picture-six{
-    background-image: url("asset/book.jpg");
-    height: 100px;
-}
-
-.picture-seven{
-    background-image: url("asset/contacts.jpg");
-    height: 100px;
+  animation: 1s ease-out 0s 1 slideInFromRight;
+  margin-left: 15px;
 }
 
 .project-btn {
-    background-color: #6025de;
-    border: none;
-    color: white;
-    padding: 15px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 4px;
-    cursor: pointer;
-    
-
+  background-color: #6025de;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 div #project:hover {
-    transform: scale(1.10,1.10);
+  transform: scale(1.1, 1.1);
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+footer {
+  background-color: #6025de;
+  color: white !important;
+  text-align: center;
+  padding: 80px;
 }
