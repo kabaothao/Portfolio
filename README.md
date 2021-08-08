@@ -35,7 +35,7 @@ List the ready features here:
 - N/A
 
 ## Screenshots
-![Example screenshot](asset/webpage.PNG)
+![Example screenshot](https://github.com/kabaothao/Portfolio/blob/master/asset/screenshottwo.PNG)
 =======
 
 
