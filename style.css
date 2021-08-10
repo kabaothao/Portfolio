@@ -104,7 +104,7 @@ hr {
   background-color: #6025de;
   border: none;
   color: white;
-  padding: 15px 50px;
+  padding: 15px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -154,7 +154,7 @@ div #project:hover {
 .project-image {
   margin-top: 25px;
   width: 250px;
-  border-radius: 125px;
+  border-radius: 5px;
 }
 
 .project-link {
@@ -172,4 +172,18 @@ footer {
   color: white !important;
   text-align: center;
   padding: 80px;
+}
+
+.github-btn {
+  background-color: #6025de;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 5px;
 }
