@@ -187,3 +187,52 @@ footer {
   cursor: pointer;
   border-radius: 5px;
 }
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: url(./asset/hero-bg.jpg) center center;
+  background-size: cover;
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#hero::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero h2 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+#hero h1 {
+  color: white;
+  margin: 15px 15px 15px 15px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  position: absolute;
+}
+
+#introImage {
+  border-radius: 200px;
+  margin-right: 15px;
+}
